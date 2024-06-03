@@ -38,6 +38,7 @@
     }
 }
 
+#' @export
 #' @importFrom shiny selectInput
 #' @rdname INTERNAL_hidden_elements
 .selectInputHidden <- function(x, field, ...) {
